@@ -42,7 +42,7 @@ abstract class reviews{
 public class Books extends Borrowing {  // Concept used: ch9: - inheritance
     //Fields
     private String bookName;
-    private bookReviews review; // concepts used: ch8&10: - composition & interface
+    private bookReviews review; // concepts used: ch8: - composition 
 
 
     //constructor
