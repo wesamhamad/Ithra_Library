@@ -53,7 +53,7 @@ public class Main {
 
         //Customer info & feedback
         System.out.println("\nWelcome To Ithra Library ");
-        System.out.print("Please enter date of borrowed :");
+        System.out.print("Please enter date of borrowed (Year then month then day):");
         y = input.nextInt();
         m = input.nextInt();
         d = input.nextInt();
@@ -61,7 +61,7 @@ public class Main {
         // Create Date object which is borrowed date
         DateOfBorrowed[STARTDATE] = new Date(y, m, d);
 
-        System.out.print("Please enter date of return :");
+        System.out.print("Please enter date of return (Year then month then day):");
         y = input.nextInt();// no need to create new variables since the first object's fields already initialized
         m = input.nextInt();
         d = input.nextInt();
@@ -80,7 +80,7 @@ public class Main {
 
         // Another customer info & feedback
         System.out.println("\n\nWelcome To Ithra Library ");
-        System.out.print("Please enter date of borrowed :");
+        System.out.print("Please enter date of borrowed (Year then month then day):");
         y = input.nextInt();
         m = input.nextInt();
         d = input.nextInt();
@@ -88,7 +88,7 @@ public class Main {
         // Create Date object which is borrowed date
         DateOfBorrowed[STARTDATE] = new Date(y, m, d);
 
-        System.out.print("Please enter date of return :");
+        System.out.print("Please enter date of return (Year then month then day):");
         y = input.nextInt();// no need to create new variables since the first object's fields already initialized
         m = input.nextInt();
         d = input.nextInt();
@@ -102,7 +102,7 @@ public class Main {
 
         Ithra.sale(DateOfBorrowed[STARTDATE]);
 
-        System.out.printf("\n\n-----------Reviews :----------- \nBook name: %s \nReview: %s \nBook name: %s \nReview:% s \n",customer1.getBookName(),reviewc1.getReview(),customer2.getBookName(),reviewc2.getReview());
+        System.out.printf("\n\n-----------Reviews :----------- \nBook name: %s \nReview: %s \nBook name: %s \nReview:%s \n",customer1.getBookName(),reviewc1.getReview(),customer2.getBookName(),reviewc2.getReview());
     }
 }
 
