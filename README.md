@@ -1,4 +1,4 @@
-# Ithra Library Simulation
+# Ithra Library Using java 
  Implementation of concepts studies on course IT214, to utilize my programming skills and apply what I learned.
 
 ## Concepts Used: 
