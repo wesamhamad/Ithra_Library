@@ -21,7 +21,7 @@ In source code, I left a comment in each place that one of these applies.
 ### ch9:
    - inheritance 
    - super(arguments) 
-   - protecte
+   - protected
    - override with @Override 
 
 
