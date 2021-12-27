@@ -29,7 +29,7 @@ In source code, I left a comment in each place that one of these applies.
    - abstract 
    - interface 
 
-In [Books](https://github.com/wesamhamad/Ithra_Library_simulation/blob/main/Src/Books.java) class I combine to concepts which are composition & interface as shown belowe :
+#### In [Books](https://github.com/wesamhamad/Ithra_Library_simulation/blob/main/Src/Books.java) class I use composition as an object as shown belowe :
   
 ```java
 import java.util.Scanner;
@@ -52,6 +52,38 @@ public class Books extends Borrowing {  // Concept used: ch9: - inheritance
         setBookName(bookN);
     }
 }
+```
+#### While in [Borrowing](https://github.com/wesamhamad/Ithra_Library/blob/main/Src/Borrowing.java) class I use composition as array of object with set&get methods (get return type is array of Date data type ) :
+```java
+public class Borrowing {
+    //Fields
+    private String borrower;
+    private Date []dateBorrowed; // concepts used: ch8: - composition
+    private static int noOfBorrowed;
+
+    //Constructor
+    public Borrowing( String borrower, Date []date) {
+        setBorrower(borrower);
+        setDateBorrowed(date);
+        ++noOfBorrowed;
+    }
+
+
+    public void setBorrower(String b) {
+        if(b.length() >= 2)// to make sure not empty
+            borrower = b;
+    }
+    public String getBorrower( ) {return borrower ;}
+
+    public void setDateBorrowed(Date []date) {dateBorrowed = date;}
+    public Date[] getDateBorrowed() {return dateBorrowed;}
+
+    public static int getNoOfoBrrowed(){return noOfBorrowed;}
+
+
+}
+
+
 ```
 
 ``
