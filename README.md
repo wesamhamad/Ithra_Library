@@ -29,7 +29,7 @@ In source code, I left a comment in each place that one of these applies.
    - abstract 
    - interface 
 
-#### In [Books](https://github.com/wesamhamad/Ithra_Library_simulation/blob/main/Src/Books.java) class I use composition as an object as shown belowe :
+#### In [Books](https://github.com/wesamhamad/Ithra_Library_simulation/blob/main/Src/Books.java) class I use composition as an object as shown below :
   
 ```java
 import java.util.Scanner;
